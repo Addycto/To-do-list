@@ -1,0 +1,115 @@
+body{
+	font-family: 'Mansalva', cursive;
+	font-size: 110%;
+
+	/*background-image: url("https://farm8.static.flickr.com/7515/27165521485_4dd2be4877_b.jpg");*/
+	background-image: url("https://i.pinimg.com/originals/c6/6f/91/c66f91546d1f6716b0513cbd4b179fed.jpg");
+	background-color: rgba(20,20,20,0.93);
+
+
+	background-size: 100%;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+
+	transform: rotate(-8.5deg);
+	/*overflow: hidden;
+ 	position: relative;*/
+}
+
+h1{
+	border-bottom: 100px;
+	border-color: black;
+	margin-bottom: 0;
+}
+
+i{
+	color: gray;
+	float: right;
+	transition: 0.2s
+}
+i:hover{
+	color: black;
+}
+
+#container{
+	width: 40%;
+	/*margin: 3% 28%;*/
+	margin-left: 28%;
+	margin-right: 0%;
+	border: 0%;
+	padding: 0%;
+
+}
+
+span{
+	color: rgba(0,0,0,0);
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+}
+
+li:hover span{
+	width: 6%;
+	color: gray;
+}
+
+/*span:hover{
+	color: black;
+}
+*/
+ul{
+	list-style: none;
+	padding: 0%;
+}
+
+input{
+	background-color: rgba(0,0,0,0);
+	border: none;
+	width: 100%;
+	font-family: 'Mansalva', cursive;
+	font-size: 115%;
+}
+
+input:focus{
+	border: 2px solid gray;
+	border-style: solid none solid none;
+	outline: none;
+}
+
+.completed{
+	/*color: gray;*/
+	text-decoration: line-through;
+	text-decoration-style: double;
+}
+@media only screen and (max-width: 1120px) {
+
+   body { 
+      font-size: 100%; 
+   }
+
+}
+
+@media only screen and (max-width: 920px) {
+
+   body { 
+      font-size: 90%; 
+   }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+   body { 
+      font-size: 70%; 
+   }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+   body { 
+      font-size: 65%; 
+   }
+
+}
